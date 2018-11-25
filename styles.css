@@ -1,0 +1,52 @@
+/*
+Extremely basic styling
+ */
+
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.4;
+}
+
+button {
+    background: tomato;
+    border: 0;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+}
+
+button:hover {
+    background: salmon;
+}
+
+.container {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.results,
+.boxes {
+    padding: 0 10px;
+}
+
+.results {
+    text-align: right;
+}
+.clicked-results {
+    background: #f5f5f5;
+    min-height: 34px;
+    margin: 0;
+    text-align: center;
+}
+
+.clicked-results li {
+    display: inline-block;
+    padding: 3px 6px;
+    margin: 3px;
+}
+
+.description {
+    max-width: 600px;
+    margin: 20px auto;
+}
