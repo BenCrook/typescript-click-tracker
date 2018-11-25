@@ -1,6 +1,8 @@
 What & Why
 ----------
 
+![recording](functionality.gif)
+
 This is a simple piece of functionality built to help me learn Typescript. It consists of some buttons that each have a data-value attribute and when the user clicks on a button this value is stored in an array which is then rendered on to the front-end.
 
 _This would have been much easier to build using React or Vue but I find I often learn more when attempting to do it all myself._
